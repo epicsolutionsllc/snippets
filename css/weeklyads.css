@@ -1,0 +1,11 @@
+/* [/weekly-ad] Fixes height and text wrapping of listings on mobile */
+div.sc-fzozJi.dteCCc > div:nth-child(3) {
+  height: auto !important;
+}
+
+/* [/weekly-ad] Fixes wrapping of listings on tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .ant-spin-container > div:last-child > div > div {
+    max-width: 100% !important;
+  }
+}
