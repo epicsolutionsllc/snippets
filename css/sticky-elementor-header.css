@@ -1,3 +1,8 @@
+/*
+  Place this snippet in the "Addititional CSS" section of the navbar Elementor element.
+  Then under the "Motion Effects" session turn on scrolling effects and set "Sticky" to "Top"
+*/
+
 selector.elementor-sticky--effects {
     background: #fff;
     transition: background 0.2s, box-shadow 0.2s;
