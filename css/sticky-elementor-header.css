@@ -1,0 +1,10 @@
+selector.elementor-sticky--effects {
+    background: #fff;
+    transition: background 0.2s, box-shadow 0.2s;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+selector.elementor-sticky {
+    transition: background 0.2s, box-shadow 0.2s;
+}
